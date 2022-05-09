@@ -150,7 +150,7 @@ Jump-Box-Provisioner
 
 Web-1
 -----
-![DockerPS](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/Docker/Web-1%20sudo_docker_ps%20-a.png"Web-1")  
+![DockerPS](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/Docker/Web-1%20sudo_docker_ps%20-a.png "Web-1")  
 
 Web-2
 -----
