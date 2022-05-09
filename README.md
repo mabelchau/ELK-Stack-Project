@@ -146,7 +146,7 @@ ELKserver
 
 Jump-Box-Provisioner
 --------------------
-![DockerPS](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/Docker/Jump-Box-Provisionser-sudo_docker_ps.png"Jump-Box-Provisioner")  
+![DockerPS](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/Docker/Jump-Box-Provisionser-sudo_docker_ps.png "Jump-Box-Provisioner")  
 
 Web-1
 -----
