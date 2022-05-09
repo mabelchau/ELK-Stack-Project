@@ -48,8 +48,8 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Name       | Function | IP Address | Operating System |
 |------------|----------|------------|------------------|
 | JumpBoxx | Gateway | 10.0.0.4 | Linux |
-| Webb1 | DVWA | 10.0.0.8 | Linux |
-| Webb2 | DVWA | 10.0.0.9 | Linux |
+| Webb1 | DVWA | 10.0.0.5 | Linux |
+| Webb2 | DVWA | 10.0.0.6 | Linux |
 | ELK-VM | Server | 10.1.0.4 | Linux |
 
 
@@ -60,7 +60,7 @@ The machines on the internal network are not exposed to the public Internet.
 Only the **_Jump-Box-Provisioner_** machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - **_Workstation MY Public IP through TCP 5601._**
 
-Machines within the network can only be accessed by **_Workstation and Jump-Box-Provisioner through SSH Jump-Box._**.
+Machines within the network can only be accessed by **_Workstation and Jump-Box-Provisioner through SSH JumpBoxx._**.
 
 Which machine did you allow to access your ELK VM? What was its IP address?
 - **_Jump-Box-Provisioner IP : 10.0.0.4 via SSH port 22_**
@@ -68,9 +68,9 @@ Which machine did you allow to access your ELK VM? What was its IP address?
 A summary of the access policies in place can be found in the table below.
 | Name                 | Publicly Accessible | Allowed IP Addresses                    |
 |----------------------|---------------------|-----------------------------------------|
-| Jump-Box-Provisioner | Yes                 | 74.65.245.48 (Workstation IP on SSH 22)|
-| Web-1                | No                  | 10.0.0.7 via SSH port 22                |
-| Web-2                | No                  | 10.0.0.7 via SSH port 22                |
+| Jump-Box-Provisioner | Yes                 | 20.106.136.242 (Workstation IP on SSH 22)|
+| Webb1                | No                  | 10.0.0.4 via SSH port 22                |
+| Webb2                | No                  | 10.0.0.4 via SSH port 22                |
 | ELK-VM               | No                  | Workstation MY Public IP using TCP 5601 |
 
 ### Elk Configuration
