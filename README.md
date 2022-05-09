@@ -181,3 +181,10 @@ We have installed the following Beats on these machines:
   - [Filebeat Module Status](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/ELK%20Configurations/Filebeat/FIlebeat_success.png "Filebeat Data Successful")
 - Metric  
   - [Metricbeat Module Status](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/ELK%20Configurations/Metricbeat/Metricbeat%20success.png "Metricbeat Data Successful") 
+ 
+These Beats allow us to collect the following information from each machine:  
+- Filebeat collects log files from systems and servers such as Apache, Microsft Azure tools and web servers, MySQL databases.    
+  - [Filebeat Module Kibana Dashboard ](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/ELK%20Configurations/Filebeat/Filebeat_system%20dashboard.png "Filebeat Dashboard")
+
+- Metricbeat monitors VM stats,  CPU core stats, filesystem stats, memory stats and network stats.
+    - [Metricbeat Module Kibana Dashboard](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/ELK%20Configurations/Metricbeat/Metricbeat%20dashboard.png "Kibana Dashboard with Metricbeat") 
