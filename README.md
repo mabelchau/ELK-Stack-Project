@@ -168,7 +168,7 @@ SSH into the control node and follow the steps below:
 - Update the **_config_** file to include **_remote users and ports._**
 - Run the playbook, and navigate to **_Kibana [(Your Static Public IP Address on your ELK-VM):5601 (in my case it is 52.190.250.118:5601)]_** to check that the installation worked.  
 
-  -  [Kibana Welcome Page](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/ELK%20Configurations/Kibana/Kibana%20start%20page.png"Welcome to Kibana")
+  -  [Kibana Welcome Page](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/ELK%20Configurations/Kibana/Kibana%20start%20page.png "Welcome to Kibana")
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
