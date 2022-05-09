@@ -1,7 +1,7 @@
 ---
 - name: Configure Elk VM with Docker
   hosts: elk
-  remote_user: sysadmin
+  remote_user: azureuser
   become: true
   tasks:
     # Use apt module
