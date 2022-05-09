@@ -47,10 +47,11 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 | Name       | Function | IP Address | Operating System |
 |------------|----------|------------|------------------|
-| Jump Box   | Gateway  | 10.0.0.7   | Linux            |
-| Web-1      |  DVWA    | 10.0.0.8   | Linux            |
-| Web-2      |  DVWA    | 10.0.0.9   | Linux            |
-| ELK-VM     | Server   | 10.1.0.4   | Linux            |
+| JumpBoxx | Gateway | 10.0.0.4 | Linux |
+| Webb1 | DVWA | 10.0.0.8 | Linux |
+| Webb2 | DVWA | 10.0.0.9 | Linux |
+| ELK-VM | Server | 10.1.0.4 | Linux |
+
 
 ### Access Policies
 
