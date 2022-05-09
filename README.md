@@ -139,3 +139,19 @@ In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Do
              -  5044:5044   
       ```
 - The following screenshots displays the result of running `docker ps` and `docker ps -a` after successfully configuring the ELK instance.  
+
+ELKserver
+---------
+![DockerPS](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/Docker/ELK-VM_sudo_docker_ps.png "ELKserver")  
+
+Jump-Box-Provisioner
+--------------------
+![DockerPS](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/Docker/Jump-Box-Provisionser-sudo_docker_ps.png"Jump-Box-Provisioner")  
+
+Web-1
+-----
+![DockerPS](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/Docker/Web-1%20sudo_docker_ps%20-a.png"Web-1")  
+
+Web-2
+-----
+![DockerPS](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/Docker/Web-2%20sudo_docker_ps%20-a.png "Web-2")  
