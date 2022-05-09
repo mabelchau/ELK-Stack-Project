@@ -188,3 +188,17 @@ These Beats allow us to collect the following information from each machine:
 
 - Metricbeat monitors VM stats,  CPU core stats, filesystem stats, memory stats and network stats.
     - [Metricbeat Module Kibana Dashboard](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/ELK%20Configurations/Metricbeat/Metricbeat%20dashboard.png "Kibana Dashboard with Metricbeat") 
+    
+_: Answer the following questions:_
+- _Which file is the playbook?_    
+   -For Ansible create **_[My First Playbook](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/ansible/Docker/pentest.yml "My First Playbook")_**  
+   -For Filebeat create **_[Filebeat Playbook](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/ansible/Filebeat/filebeat-playbook.yml "Filebeat Playbook")_**  
+   -For Metricbeat create **_[Metricbeat Playbook](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/ansible/Metricbeat/metricbeat-playbook.yml "Metricbeat")_**  
+    _Where do you copy it?_  
+        -**_/etc/ansible/_**  
+- _Which file do you update to make Ansible run the playbook on a specific machine?_  
+   -**_/etc/ansible/hosts file (IP of the Virtual Machines)._**
+- _How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+   - **_Designate two separate groups in the etc/ansible/hosts file. One of the groups will be webservers which has the IPs of the 2 VMs that Filebeat will be installed onto._** 
+- _Which URL do you navigate to in order to check that the ELK server is running?
+   - **_http://52.190.250.118:5601/app/kibana#/home_**
