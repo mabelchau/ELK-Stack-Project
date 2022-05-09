@@ -155,3 +155,29 @@ Web-1
 Web-2
 -----
 ![DockerPS](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/Docker/Web-2%20sudo_docker_ps%20-a.png "Web-2")  
+
+## Using the Playbook  
+In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
+
+- Verify the Public IP address to see if it has changed. [What Is My IP?](https://www.whatismyip.com/)
+- If changed then update the Security Rules that uses the Public IPv4 address
+
+SSH into the control node and follow the steps below:
+
+- Copy the **_yml_** file to the  **_ansible folder._**
+- Update the **_config_** file to include **_remote users and ports._**
+- Run the playbook, and navigate to **_Kibana [(Your Static Public IP Address on your ELK-VM):5601 (in my case it is 52.190.250.118:5601)]_** to check that the installation worked.  
+
+  -  [Kibana Welcome Page](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/ELK%20Configurations/Kibana/Kibana%20start%20page.png"Welcome to Kibana")
+
+### Target Machines & Beats
+This ELK server is configured to monitor the following machines:
+- List the IP addresses of the machines you are monitoring  
+   - Web-1: 10.0.0.5
+   - Web-2: 10.0.0.6 
+
+We have installed the following Beats on these machines:
+- Filebeat  
+  - [Filebeat Module Status](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/ELK%20Configurations/Filebeat/FIlebeat_success.png "Filebeat Data Successful")
+- Metric  
+  - [Metricbeat Module Status](https://github.com/mabelchau/ELK-Stack-Project/blob/Main/Diagrams_and_Images/ELK%20Configurations/Metricbeat/Metricbeat%20success.png "Metricbeat Data Successful") 
